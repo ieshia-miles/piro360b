@@ -7,7 +7,7 @@ import uvicorn
 from models import Piro, Tag, User, create_engine, SQLModel
 
 
-# TODO: Make this class the primary, it needs to opena connection to the database
+# TODO: Make this class the primary, it needs to open a connection to the database
 # and then pass that connection to the FastAPI app
 # using the session instead as a DI, isn't the right thing.
 
